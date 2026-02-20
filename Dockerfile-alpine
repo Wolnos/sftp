@@ -1,5 +1,4 @@
-FROM alpine:latest
-MAINTAINER Adrian Dvergsdal [atmoz.net]
+FROM dhi.io/alpine-base:3.23
 
 # Steps done in one RUN layer:
 # - Install upgrades and new packages
